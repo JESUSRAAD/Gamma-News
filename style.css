@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 body {
@@ -11,14 +11,15 @@ body {
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(239, 214, 183);
 }
 
 
 div {
     padding: 20px 0;
-    background-color: #E91E62;
-    color: white;
-    border: 5px solid white;
+    color: black;
+    /* border: 2px solid black; */
     text-align: center;
 
 
@@ -30,54 +31,106 @@ div {
     grid-template-columns: repeat(5, 20vw);
 }
 #diaryName{
-    grid-column:1/6
+    grid-column:1/6;
    
+        font-family: "Calistoga", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+    font-size: 100px;
 }
 #locationDate{
-    grid-column:1/6
+    grid-column:1/6;
+    font-size: 20px;
+    border: 4px solid black;
+    
 }
 #column1-titleNew1{
-    grid-column:1/2
+    grid-column:1/2;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
 }
 #column2-titleNew1{
-    grid-column:2/3
+    grid-column:2/3;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
 }
 
 
 
 #column3-titleNew1{
-    grid-column:3/4
+    grid-column:3/4;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
   
 }
 #column4-titleNew1{
-    grid-column:4/5
+    grid-column:4/5;
+    font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
   
 }
 #column5-titleNew1{
-    grid-column:5/6
+    grid-column:5/6;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
   
 }
 #column1-writerNew1{
-    grid-column:1/2
+    grid-column:1/2;
+    
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+      
   
 }
 #column2-writerNew1{
-    grid-column:2/3
+    grid-column:2/3;
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 
 
 
 #column3-writerNew1{
-    grid-column:3/4
+    grid-column:3/4;
+    font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 #column4-writerNew1{
-    grid-column:4/5
+    grid-column:4/5;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
 }
 
 
 
 #column5-writerNew1{
-    grid-column:5/6
+    grid-column:5/6;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
 }
 #column1-contentNew1{
     grid-column:1/2
@@ -95,8 +148,31 @@ div {
     grid-column:5/6
 }
 #column3-titleNew2{
-    grid-column:3/4
+    grid-column:3/4;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 #column3-contentNew2{
     grid-column:3/4
+}
+
+#corner-left{display: flex;
+    position: absolute;
+    margin: 20px;
+    width: 10vw;
+    border: 2px solid black;
+    grid-column:1/2;
+    outline: 2px solid rgb(2, 2, 2);
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 400;
+    font-style: italic;
+    
+
+}
+
+img{
+
+    width: 300px;
 }
