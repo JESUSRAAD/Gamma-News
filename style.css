@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+div {
+    padding: 20px 0;
+    background-color: #E91E62;
+    color: white;
+    border: 5px solid white;
+    text-align: center;
+
+
+}
+
+.diary{
+    border: 2px solid grey;
+    display: grid;
+    grid-template-columns: repeat(5, 20vw);
+}
+#diaryName{
+    grid-column:1/6
+   
+}
+#locationDate{
+    grid-column:1/6
+}
+#column1-titleNew1{
+    grid-column:1/2
+}
+#column2-titleNew1{
+    grid-column:2/3
+}
+
+
+
+#column3-titleNew1{
+    grid-column:3/4
+  
+}
+#column4-titleNew1{
+    grid-column:4/5
+  
+}
+#column5-titleNew1{
+    grid-column:5/6
+  
+}
+#column1-writerNew1{
+    grid-column:1/2
+  
+}
+#column2-writerNew1{
+    grid-column:2/3
+}
+
+
+
+#column3-writerNew1{
+    grid-column:3/4
+}
+#column4-writerNew1{
+    grid-column:4/5
+}
+
+
+
+#column5-writerNew1{
+    grid-column:5/6
+}
+#column1-contentNew1{
+    grid-column:1/2
+}
+#column2-contentNew1{
+    grid-column:2/3
+}
+#column3-contentNew1{
+    grid-column:3/4
+}
+#column4-contentNew1{
+    grid-column:4/5
+}
+#column5-contentNew1{
+    grid-column:5/6
+}
+#column3-titleNew2{
+    grid-column:3/4
+}
+#column3-contentNew2{
+    grid-column:3/4
+}
