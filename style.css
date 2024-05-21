@@ -12,23 +12,30 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     font-family:'Times New Roman', Times, serif;
-    background-color: rgb(239, 214, 183);
+    filter: grayscale();
+   
 }
 
 
-div {
+div {display: flex;
+    flex-direction: column;
     padding: 20px 0;
     color: black;
-    /* border: 2px solid black; */
+    border-right: 2px solid black;
     text-align: center;
+    align-items: center;
 
 
 }
+hr{
+    width: 50%;
+}
 
-.diary{
+#diary{
     border: 2px solid grey;
     display: grid;
     grid-template-columns: repeat(5, 20vw);
+    
 }
 #diaryName{
     grid-column:1/6;
@@ -59,6 +66,7 @@ div {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+
 }
 
 
@@ -162,9 +170,10 @@ div {
     position: absolute;
     margin: 20px;
     width: 10vw;
-    border: 2px solid black;
+    border: 5px solid black ;
+   border-style: double;
     grid-column:1/2;
-    outline: 2px solid rgb(2, 2, 2);
+   
     font-family: "Sorts Mill Goudy", serif;
     font-weight: 400;
     font-style: italic;
@@ -175,4 +184,10 @@ div {
 img{
 
     width: 300px;
+}
+
+p{
+    font-size: small;
+    font-style: italic;
+    font-family: cursive;
 }
